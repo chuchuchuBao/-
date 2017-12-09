@@ -189,11 +189,9 @@ a:active {
     outline: 0;
 }
 
-
 /*去掉图片4px下边距*/
 
 img {
-    display: block;
     width: 100%;
     -webkit-touch-callout: none;
 }

@@ -1,4 +1,209 @@
 .header {
-  width: 100%;
+  width: 1074px;
   height: 100px;
+  margin: 0 auto;
+}
+.header .logo {
+  float: left;
+}
+.header .logo .logo-img {
+  width: 198px;
+  margin: 13px 0 0 33px;
+  display: block;
+  float: left;
+}
+.header .logo .logo-font {
+  height: 18px;
+  display: block;
+  margin-left: 16px;
+  float: left;
+  width: 234px;
+  margin-top: 45px;
+}
+.header .download {
+  width: 100px;
+  height: 37px;
+  float: right;
+  margin-top: 30px;
+}
+.banner {
+  min-width: 1074px;
+  width: 100%;
+  position: relative;
+}
+.banner .banner-img {
+  width: 100%;
+  height: 500px;
+}
+.banner .banner-img .ban {
+  height: 500px;
+}
+.banner .banner-side {
+  width: 320px;
+  height: 420px;
+  background-color: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  top: 40px;
+  right: 120px;
+  border-radius: 5px;
+}
+.banner .banner-side h3 {
+  font-size: 24px;
+  color: #fa4d3e;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+}
+.banner .banner-side .side-box {
+  width: 270px;
+  margin: 15px auto 0;
+}
+.banner .banner-side .side-box .side-item {
+  width: 300px;
+  height: 60px;
+}
+.banner .banner-side .side-box .side-item #tel {
+  background: url(../img/icon_1.png) no-repeat 13px 8px;
+  background-size: 10px;
+  font-size: 12px;
+  width: 270px;
+  height: 33px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding-left: 35px;
+}
+.banner .banner-side .side-box .side-item #password {
+  background: url(../img/icon_2.png) no-repeat 13px 8px;
+  background-size: 12px;
+  font-size: 12px;
+  width: 270px;
+  height: 33px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding-left: 35px;
+}
+.banner .banner-side .side-box .side-item #img-code {
+  background: url(../img/icon_3.png) no-repeat 10px 11px;
+  background-size: 15px;
+  width: 168px;
+  height: 33px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding-left: 35px;
+  float: left;
+  font-size: 12px;
+  margin-right: 20px;
+}
+.banner .banner-side .side-box .side-item #tel-code {
+  background: url(../img/icon_4.png) no-repeat 10px 10px;
+  background-size: 18px;
+  width: 168px;
+  height: 33px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding-left: 35px;
+  float: left;
+  font-size: 12px;
+  margin-right: 20px;
+}
+.banner .banner-side .side-box .side-item .get-code {
+  background: #fa4d3e;
+  border-radius: 5px;
+  color: white;
+  width: 83px;
+  height: 33px;
+  line-height: 33px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.banner .banner-side .side-box .right-eye {
+  position: relative;
+}
+.banner .banner-side .side-box .right-eye .eye {
+  position: absolute;
+  right: 41px;
+  top: 11px;
+  width: 17px;
+  cursor: pointer;
+}
+.banner .banner-side .side-box #read {
+  margin-top: -10px;
+}
+.banner .banner-side .side-box #read .registered {
+  float: right;
+  cursor: pointer;
+}
+.banner .banner-side .side-box #register {
+  background: #fa4d3e;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  font-weight: 600;
+  width: 270px;
+  height: 45px;
+  margin-top: 10px;
+}
+.banner .banner-side .side-box .side-font {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 10px;
+}
+.content {
+  text-align: center;
+  width: 100%;
+  min-width: 1074px;
+  border-bottom: 1px solid #E8E8E8;
+  color: #f8313B;
+  font-size: 24px;
+  line-height: 123px;
+}
+.content .left {
+  width: 175px;
+  height: 123px;
+  display: inline-block;
+  margin-right: 98px;
+}
+.content .left .left-img {
+  display: inline;
+  vertical-align: middle;
+}
+.content .right {
+  display: inline-block;
+  line-height: normal;
+}
+.content .right .box {
+  display: inline-block;
+  margin-right: 63px;
+  text-align: left;
+  vertical-align: middle;
+}
+.content .right .box p {
+  font-size: 16px;
+  color: #515151;
+}
+.content .right .box span {
+  margin-top: 10px;
+  display: inline-block;
+}
+.content .right .box span img {
+  display: inline;
+  vertical-align: bottom;
+  margin-top: -4px;
+}
+.content .right .box span .img1 {
+  width: 35px;
+}
+.content .right .box span .img2 {
+  width: 33px;
+}
+.content .right .box span .img3 {
+  width: 29px;
+}
+.content .right .box span .img4 {
+  width: 29px;
+}
+.content .right .box span i {
+  font-size: 16px;
 }
